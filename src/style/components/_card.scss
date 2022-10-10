@@ -1,0 +1,107 @@
+.card {
+    background-color: $white-color;
+    border-radius: 14px;
+    padding: 14px;
+    margin-top: 10px;
+
+
+    @media screen and (max-width:500px) {
+        width: 460px !important;
+    }
+
+    &-content{
+        @media screen and (max-width:992px) {
+            margin-top: 10px;
+            margin-bottom: 10px ;
+        }
+    }
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: $title_color;
+    margin-top: 6px;
+}
+
+
+
+.title_span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: $gray_color;
+}
+
+.small-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: $small_desc_color;
+    width: 200px;
+
+    @media screen and (max-width:500px) {
+        margin-left: -10px !important;
+    }
+}
+
+.small-desc-margin-top {
+    margin-top: 35px;
+}
+
+
+.views {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: $gray_color;
+
+    @media screen and (max-width:500px) {
+        position: absolute !important;
+        margin-top: 9px !important;
+    }
+}
+
+.views-margin-top {
+    margin-top: 38px;
+}
+
+.price {
+    color: $small_desc_color;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+
+.icons-margin-top {
+    margin-top: 70px;
+
+    @media screen and (max-width:500px) {
+        margin: 0;
+    }
+}
+
+
+
+.green-color {
+    color: $green_color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 11px;
+    padding: 5px 5px;
+    background: #d6f7de;
+    border-radius: 6px;
+}
+
+.orange-color {
+    color: $primary_color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    // padding: 5px 10px;
+    background: #FFE3E3;
+    border-radius: 6px;
+}

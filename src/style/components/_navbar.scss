@@ -1,0 +1,12 @@
+nav {
+    height: 80px;
+    background-color: $white_color;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 131px;
+        height: 40px;
+        cursor: pointer;
+    }
+}

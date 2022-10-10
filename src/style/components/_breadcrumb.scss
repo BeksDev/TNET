@@ -1,0 +1,23 @@
+.main--ul {
+    display: flex;
+    padding: 0;
+    font-size: 12px;
+
+    @media screen and (max-width:991px){
+        display: none;
+    }
+
+    li {
+        list-style: none;
+        color: $gray_color;
+        cursor: pointer;
+    }
+
+    .active {
+        color: $primary_color;
+    }
+
+    .padding {
+        padding: 0 3px;
+    }
+}

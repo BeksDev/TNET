@@ -1,0 +1,52 @@
+.nav-tabs {
+    background-color: $body_color;
+    justify-content: center;
+
+    .nav-item {
+        border: none;
+        color: $gray_color;
+        width: 33.333%;
+        border-right:1px solid #E9E9F0;
+        border-left:1px solid #E9E9F0;
+
+       &:first-child{
+        border-left: none;
+       }
+       &:last-child{
+        border-right: none;
+       }
+
+
+        &:focus,
+        &:hover {
+            border: none;
+        }
+
+        .active {
+            border: none;
+            border-bottom: 1px solid $primary_color !important;
+            color: $primary_color;
+
+            &:focus,
+            &:hover {
+                border: none;
+            }
+        }
+
+        .nav-link {
+            border: none;
+            color: $gray_color;
+            width: 100%;
+            padding: 20px 35px;
+
+            &.active {
+                color: $primary_color !important;
+            }
+
+            &:focus,
+            &:hover {
+                border: none;
+            }
+        }
+    }
+}
